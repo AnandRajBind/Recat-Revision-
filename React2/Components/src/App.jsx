@@ -25,7 +25,9 @@
 
 import React from 'react'
 import { Card } from './components/Card'
- 
+import Example from './components/Example' 
+
+
 export const App = () => {
 
   const user = [
@@ -78,7 +80,8 @@ export const App = () => {
           return <Card key={idx} user={elem.Name} age={elem.Age} city={elem.City} photo={elem.ProfilePhoto} Profession={elem.Profession}/>
         })}
 
-
+// Props drilling example
+{/* <Example name="Anand" /> */}
       </div>
     </>
   )
