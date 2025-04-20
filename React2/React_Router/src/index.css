@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+body{
+  background-color: #000000;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  position: absolute;
+  text-decoration-thickness: 2px;
+  font-size: 70px;
+  font-weight: 600;
+  top: 50vh;
+  left: 50vh;
+  transform: translate(-50%, -50%);
+  color: white;
+ } 
+
